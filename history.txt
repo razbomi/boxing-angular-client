@@ -1,0 +1,1000 @@
+    4  git commit -m"Cleaned up configuration to allow external properties to override the defaults
+    5  "
+    6  vim .gitignore
+    7  git status
+    8  vim .gitignore
+    9  git status
+   10  vim .gitignore
+   11  git status
+   12  vim .gitignore
+   13  git commit -m"Cleaned up configuration to allow external properties to override the defaults"
+   14  git push
+   15  cd /Users/mitko/Developer/Workspace/java/transport-data-rest/target/
+   16  ls
+   17  java -jar transport-0.1.0.jar
+   18  java -jar transport-0.1.0.jar
+   19  java -jar transport-0.1.0.jar
+   20  cd ../
+   21  mvn clean spring-boot:run
+   22  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn clean spring-boot:run
+   23  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn clean spring-boot:run
+   24  java -version
+   25  java -version
+   26  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn clean spring-boot:run
+   27  ls -l JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+   28  ls -l /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+   29  ls -l /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/
+   30  ls -l /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/java -version
+   31  /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/java -version
+   32  which java
+   33  which java -l
+   34  ls -l /usr/bin/java
+   35  ls /Library/Java/JavaVirtualMachines/CurrentJDK/Contents/Home
+   36  cd /System/Library/Frameworks/JavaVM.framework/Versions/Current/
+   37  ls
+   38  ls JavaVM 
+   39  ls -l JavaVM 
+   40  ls -l Frameworks/
+   41  ls -l Commands/
+   42  ls -l Commands/java
+   43  ls -l Frameworks/
+   44  ls -l 
+   45  ls -l ../
+   46  ls /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contentss
+   47  ls /System/Library/Java/JavaVirtualMachines/
+   48  ls A
+   49  pwd
+   50  ls
+   51  cd  /System/Library/Java/JavaVirtualMachines/
+   52  ls
+   53  ls 
+   54  cd 1.6.0.jdk/
+   55  ls
+   56  cd Contents/
+   57  ls
+   58  ls -la
+   59  ls -l Frameworks/
+   60  ls /System/Library/Java/JavaVirtualMachines/
+   61  cd /System/Library/Frameworks/JavaVM.framework/Versions/Current/
+   62  ls -la
+   63  cd ../
+   64  ls
+   65  ls A
+   66  ls -la
+   67  ls -l A
+   68  ls -la A
+   69  ls -la A/Commands/
+   70  cd  A/Commands/
+   71  pwd
+   72  java -varsion
+   73  cd -
+   74  ls
+   75  rm A
+   76  rm -rf A
+   77  sudo rm -rf A
+   78  ls -la
+   79  ls -la /urs/bin/java
+   80  ls -la /usr/bin/java
+   81  man ln
+   82  ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current CurrentJDK
+   83  ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current ./CurrentJDK
+   84  sudo ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current ./CurrentJDK
+   85  ls -la
+   86  sudo ln -s./CurrentJDK ./Current
+   87  sudo ln -s CurrentJDK Current
+   88  rm Current*
+   89  sudo rm Current*a
+   90  sudo rm Current*
+   91  sudo ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current ./CurrentJDK
+   92  pwdchistory
+   93  history
+   94  cd /Users/mitko/Developer/Workspace/java/transport-data-rest/target/
+   95  ls -lamvn clean spring-boot:run
+   96  mvn clean spring-boot:run
+   97  cd  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn
+   98  cd  ~/Developer/Tools/apache-maven-3.1.1/bin/
+   99  ls
+  100  pwd
+  101  sudo ln -s /Users/mitko/Developer/Tools/apache-maven-3.1.1/bin/mvn /usr/bin/mvn
+  102  mvn
+  103  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/
+  104  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/
+  105  /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/
+  106  /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  107  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  108  ls /System/Library/Frameworks/JavaVM.framework/Versions/
+  109  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK 
+  110  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/H 
+  111  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+  112  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  113  cd ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  114  cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  115  ln -s "/System/Library/Frameworks/JavaVM.framework/Versions/Current" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  116  rm "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  117  sudo rm "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  118  ln -s "/System/Library/Frameworks/JavaVM.framework/Versions/Current" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  119  sudo ln -s "/System/Library/Frameworks/JavaVM.framework/Versions/Current" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  120  mvn clean spring-boot:run
+  121  cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/
+  122  cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  123  ls "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  124  cd "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  125  ls -la "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"å
+  126  ls -la "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  127  ls -la "/System/Library/Frameworks/JavaVM.framework/Versions/Current"
+  128  ls "/System/Library/Frameworks/JavaVM.framework/Versions/Current"
+  129  which java
+  130  ls /usr/bin/java
+  131  ls -la /usr/bin/java
+  132  vagrant provision
+  133  vagrant up
+  134  vagrant ssh
+  135  ping atlassion.local
+  136  ping .local
+  137  vagrant provision
+  138  vagrant provision
+  139   mvn
+  140  vagrant halt
+  141  find /Volumes/PERSONAL/Developer/spring/src -name .svn -print
+  142  find /Volumes/PERSONAL/Developer/spring/src -name .svn rm -rf {} \;
+  143  find /Volumes/PERSONAL/Developer/spring/src -name .svn -exec rm -rf {} \;
+  144  find /Volumes/PERSONAL/Developer/spring/src -name .svn -print
+  145  ls
+  146  ls -R /Volumes/PERSONAL/Developer/spring/src
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd atlassian/
+  151  git status
+  152  git remote
+  153  git remote status
+  154  git status origin
+  155   ping google
+  156   ping google.com
+  157   ping bitbucket.com
+  158  cd ../../javascript/angular-kendo/
+  159  ls
+  160  gurnt server
+  161  grunt server
+  162  pwd
+  163  find / -name libexec -pring
+  164  find / -name libexec -print
+  165  ls /usr/libexec/
+  166  ls /usr/libexec/apache2/
+  167  ls /usr/libexec/apache2/*html*
+  168  apxs
+  169  man apxs
+  170  sudo apxs -ci -I /usr/include/libxml2 mod_xml2enc.c
+  171  git
+  172  sudo apxs -ci -I /usr/include/libxml2 mod_xml2enc.c
+  173  psql
+  174  which pg
+  175  which pgadmin
+  176  which postgres
+  177  pg_ctl
+  178  java -version
+  179  ls
+  180   ping google
+  181  history
+  182  history | grep http
+  183  cd /etc/apache2/
+  184  ls
+  185  vi httpd.conf
+  186  grep ProxyRequests *
+  187  grep ProxyRequests */*
+  188  grep Proxy *
+  189  diff httpd.conf httpd.conf~previous 
+  190  sudo vi httpd.conf
+  191  service apache2 restart
+  192  sudo service apache2 restart
+  193  sudo apachectl -k restart
+  194  sudo vi httpd.conf
+  195  sudo apachectl -k restart
+  196  sudo vi httpd.conf
+  197  sudo apachectl -k restart
+  198  sudo vi httpd.conf
+  199  sudo apachectl -k restart
+  200  sudo vi httpd.conf
+  201  sudo apachectl -k restart
+  202  sudo vi httpd.conf
+  203  sudo apachectl -k restart
+  204  sudo vi httpd.conf
+  205  sudo apachectl -k restart
+  206  sudo vi httpd.conf
+  207  sudo apachectl -k restart
+  208  sudo vi httpd.conf
+  209  sudo apachectl -k restart
+  210  sudo vi httpd.conf
+  211  sudo apachectl -k restart
+  212  sudo vi httpd.conf
+  213  apactectl -t -D DUMP_MODULES
+  214  sudo apactectl -t -D DUMP_MODULES
+  215  sudo apachectl -t -D DUMP_MODULES
+  216  sudo vi httpd.conf
+  217  sudo apachectl -t -D DUMP_MODULES
+  218  sudo vi httpd.conf
+  219  sudo apachectl -t -D DUMP_MODULES
+  220  sudo apachectl -t -D DUMP_MODULES
+  221  sudo apachectl -k restart
+  222  sudo vi httpd.conf
+  223  sudo apachectl -k restart
+  224  sudo vi httpd.conf
+  225  sudo apachectl -k restart
+  226  sudo vi httpd.conf
+  227  sudo apachectl -k restart
+  228  sudo vi httpd.conf
+  229  sudo apachectl -k restart
+  230  sudo vi httpd.conf
+  231  sudo apachectl -k restart
+  232  sudo vi httpd.conf
+  233  sudo apachectl -k restart
+  234  sudo vi httpd.conf
+  235  sudo apachectl -k restart
+  236  sudo vi httpd.conf
+  237  sudo apachectl -k restart
+  238  sudo vi httpd.conf
+  239  sudo apachectl -k restart
+  240  sudo vi httpd.conf
+  241  sudo apachectl -t -D DUMP_MODULES
+  242  sudo vi httpd.conf
+  243  sudo apachectl -t -D DUMP_MODULES
+  244  sudo apachectl -k restart
+  245  sudo vi httpd.conf
+  246  sudo apachectl -k restart
+  247  sudo vi httpd.conf
+  248  sudo apachectl -k restart
+  249  sudo vi httpd.conf
+  250  sudo apachectl -k restart
+  251  sudo vi httpd.conf
+  252  sudo apachectl -k restart
+  253  sudo vi httpd.conf
+  254  ls
+  255  ls original/
+  256  ls
+  257  host
+  258  hostname
+  259  sudo vi httpd.conf
+  260  vagrant ssh
+  261  vagrant up
+  262  ls
+  263  vagrant ssh
+  264  vagrant ssh
+  265  vagrant up
+  266  ls
+  267  vagrant up
+  268  ssh
+  269  vagrant ssh
+  270  vagrant provision
+  271  vagrant ssh
+  272  vagrant -h
+  273  vagrant -h destory
+  274  vagrant destroy
+  275  history
+  276  vagrant up
+  277  vagrant destroy
+  278  vagrant init
+  279  vagrant up
+  280  vagrant halt
+  281  vagrant up
+  282  vagrant ssh
+  283  ls
+  284  hostname
+  285  ifconfig
+  286  la
+  287  ls
+  288  cd Developer/
+  289  ls
+  290  cd Workspace/
+  291  ls
+  292  ls
+  293  cd tansport/
+  294  ls
+  295  cd ..
+  296  cd -
+  297  ls
+  298  cd mor2/
+  299  ls
+  300  grunt test
+  301  npm install
+  302  npjnpnpklja;ksdjf;laskjf    
+  303  ls
+  304  cd..
+  305  cd ~
+  306  du -sk .
+  307  du -sk ./*
+  308  du -sh ./*
+  309  cd ../
+  310  ls
+  311  cd ../
+  312  ls
+  313  cd java
+  314  ls
+  315  cd transport-data-rest/
+  316  ls
+  317  git checkout develop
+  318  git fetch
+  319  mvn spring-boot:run
+  320  mvn spring-boot:run
+  321  cd ../
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd vagrant
+  326  ls
+  327  cd atlassian
+  328  ls
+  329  vagrant help
+  330  vagrant desrtoy
+  331  vagrant destroy
+  332  vagrant destroy
+  333  ls
+  334  cd Developer/
+  335  ls
+  336  cd Workspace/tansport/
+  337  ls
+  338  cd mor2/
+  339  ls
+  340  npm -help
+  341  npm install -g n
+  342  node -v
+  343  npm install
+  344  npm update
+  345  bower install
+  346  grunt test
+  347  git checkout develop
+  348  grunt test
+  349  npm install
+  350  bower install
+  351  npm update -g bower
+  352  bower install
+  353  grunt test
+  354  bower update
+  355  grunt test
+  356  git pull
+  357  grunt serve
+  358  git fetch
+  359  grunt serve
+  360  bower install hyperagent --save
+  361  grunt serve
+  362  bower install hyperagent --save
+  363  grunt serve
+  364  grunt test
+  365  grunt serve
+  366  grunt test
+  367  grunt test
+  368  grunt serve
+  369  cd ../..
+  370  ls
+  371  cd javascript/
+  372  ls
+  373  cd angular
+  374  ls
+  375  grunt serve
+  376  cat README.md 
+  377  ls
+  378  git pull
+  379  cd ..
+  380  git clone https://github.com/angular/angular-phonecat.git
+  381  ls
+  382  cd angular-phonecat/
+  383  node --version
+  384  npm install
+  385  git checkout -f step-0
+  386  git checkout -f step-1
+  387  git checkout -f step-2
+  388  test
+  389  grunt test
+  390  karma test
+  391  npm intall
+  392  npm install
+  393  cd scripts/
+  394  test.sh
+  395  ./test.sh 
+  396  ./test.sh 
+  397  git checkout -f step-3
+  398  cd ..
+  399  git checkout -f step-3
+  400  ./scripts/e2e-test.sh
+  401  ./scripts/e2e-test.sh
+  402  ./scripts/e2e-test.sh
+  403  git checkout -f step-4
+  404  git checkout -f step-5
+  405  ./scripts/e2e-test.sh
+  406  npm install
+  407  ./scripts/e2e-test.sh
+  408  node scripts/web-server.js
+  409  ./scripts/e2e-test.sh
+  410  git checkout -f step-6
+  411  ./scripts/e2e-test.sh
+  412  node scripts/web-server.js
+  413  node scripts/web-server.js
+  414  cd ../
+  415  ls
+  416  cd transport-data-rest/
+  417  ls
+  418  mvn spring:boot
+  419  cat /Users/mitko/Developer/Workspace/tansport/angular-generated/npm-debug.log
+  420  cd ../
+  421  cd angular
+  422  ls
+  423  node scripts/web-server.js
+  424  cd ../../transport
+  425  cd ../
+  426  ls
+  427  cd ..
+  428  ls
+  429  cd tansport/
+  430  ls
+  431  cd mor2
+  432  ls
+  433  grunt serve
+  434  cd ../
+  435  ls
+  436  cp -R mor2 login-module
+  437  cd login-module
+  438  ls
+  439  grunt serve
+  440  ping google.com
+  441  ping google.com
+  442  grun serve
+  443  grunt serve
+  444  grunt serve
+  445  grunt serve
+  446  grunt serve
+  447  grunt serve
+  448  grunt serve
+  449  cd ../..
+  450  ls
+  451  cd javascript/
+  452  ls
+  453  cd angular
+  454  ls
+  455  cd ../
+  456  ls
+  457  cd ..
+  458  ls
+  459  cd transport
+  460  ls
+  461  cd tansport
+  462  ls
+  463  cd login-module/
+  464  cd login-module/
+  465  grunt serve
+  466  yo angular:service errorService
+  467  npm install -g generator-angular
+  468  yo angular:service errorService
+  469  npm update -g yo
+  470  yo angular:service errorService
+  471  grunt serve
+  472  grunt serve
+  473  grunt serve
+  474  npm update
+  475  grunt serve
+  476  grunt server
+  477  cd ../
+  478  ls
+  479  mkdir angular-generated
+  480  cd angular-generated/
+  481  ls
+  482  yo angular
+  483  grunt serve
+  484  yo angular:service errorService
+  485  yo angular:controller loginController
+  486  yo angular:controller login
+  487  yo angular:service errorS
+  488  yo angular:service error
+  489  yo angular:directive error
+  490  grunt serve
+  491  cd ..
+  492  ls
+  493  cd boot
+  494  ls
+  495  mvn spring-boot:run
+  496  mvn spring-boot:run
+  497  mvn spring-boot:run
+  498  mvn spring-boot:run
+  499  mvn spring-boot:run
+  500  pwd
+  501  grunt serve
+  502  history
+  503  history >> history.txt
+    5  "
+    6  vim .gitignore
+    7  git status
+    8  vim .gitignore
+    9  git status
+   10  vim .gitignore
+   11  git status
+   12  vim .gitignore
+   13  git commit -m"Cleaned up configuration to allow external properties to override the defaults"
+   14  git push
+   15  cd /Users/mitko/Developer/Workspace/java/transport-data-rest/target/
+   16  ls
+   17  java -jar transport-0.1.0.jar
+   18  java -jar transport-0.1.0.jar
+   19  java -jar transport-0.1.0.jar
+   20  cd ../
+   21  mvn clean spring-boot:run
+   22  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn clean spring-boot:run
+   23  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn clean spring-boot:run
+   24  java -version
+   25  java -version
+   26  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn clean spring-boot:run
+   27  ls -l JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+   28  ls -l /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+   29  ls -l /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/
+   30  ls -l /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/java -version
+   31  /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/java -version
+   32  which java
+   33  which java -l
+   34  ls -l /usr/bin/java
+   35  ls /Library/Java/JavaVirtualMachines/CurrentJDK/Contents/Home
+   36  cd /System/Library/Frameworks/JavaVM.framework/Versions/Current/
+   37  ls
+   38  ls JavaVM 
+   39  ls -l JavaVM 
+   40  ls -l Frameworks/
+   41  ls -l Commands/
+   42  ls -l Commands/java
+   43  ls -l Frameworks/
+   44  ls -l 
+   45  ls -l ../
+   46  ls /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contentss
+   47  ls /System/Library/Java/JavaVirtualMachines/
+   48  ls A
+   49  pwd
+   50  ls
+   51  cd  /System/Library/Java/JavaVirtualMachines/
+   52  ls
+   53  ls 
+   54  cd 1.6.0.jdk/
+   55  ls
+   56  cd Contents/
+   57  ls
+   58  ls -la
+   59  ls -l Frameworks/
+   60  ls /System/Library/Java/JavaVirtualMachines/
+   61  cd /System/Library/Frameworks/JavaVM.framework/Versions/Current/
+   62  ls -la
+   63  cd ../
+   64  ls
+   65  ls A
+   66  ls -la
+   67  ls -l A
+   68  ls -la A
+   69  ls -la A/Commands/
+   70  cd  A/Commands/
+   71  pwd
+   72  java -varsion
+   73  cd -
+   74  ls
+   75  rm A
+   76  rm -rf A
+   77  sudo rm -rf A
+   78  ls -la
+   79  ls -la /urs/bin/java
+   80  ls -la /usr/bin/java
+   81  man ln
+   82  ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current CurrentJDK
+   83  ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current ./CurrentJDK
+   84  sudo ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current ./CurrentJDK
+   85  ls -la
+   86  sudo ln -s./CurrentJDK ./Current
+   87  sudo ln -s CurrentJDK Current
+   88  rm Current*
+   89  sudo rm Current*a
+   90  sudo rm Current*
+   91  sudo ln -s /System/Library/Frameworks/JavaVM.framework/Versions/Current ./CurrentJDK
+   92  pwdchistory
+   93  history
+   94  cd /Users/mitko/Developer/Workspace/java/transport-data-rest/target/
+   95  ls -lamvn clean spring-boot:run
+   96  mvn clean spring-boot:run
+   97  cd  ~/Developer/Tools/apache-maven-3.1.1/bin/mvn
+   98  cd  ~/Developer/Tools/apache-maven-3.1.1/bin/
+   99  ls
+  100  pwd
+  101  sudo ln -s /Users/mitko/Developer/Tools/apache-maven-3.1.1/bin/mvn /usr/bin/mvn
+  102  mvn
+  103  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin/
+  104  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/
+  105  /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/
+  106  /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  107  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  108  ls /System/Library/Frameworks/JavaVM.framework/Versions/
+  109  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK 
+  110  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/H 
+  111  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+  112  ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  113  cd ls /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  114  cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  115  ln -s "/System/Library/Frameworks/JavaVM.framework/Versions/Current" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  116  rm "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  117  sudo rm "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  118  ln -s "/System/Library/Frameworks/JavaVM.framework/Versions/Current" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  119  sudo ln -s "/System/Library/Frameworks/JavaVM.framework/Versions/Current" "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  120  mvn clean spring-boot:run
+  121  cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/
+  122  cd /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+  123  ls "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  124  cd "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  125  ls -la "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"å
+  126  ls -la "/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK"
+  127  ls -la "/System/Library/Frameworks/JavaVM.framework/Versions/Current"
+  128  ls "/System/Library/Frameworks/JavaVM.framework/Versions/Current"
+  129  which java
+  130  ls /usr/bin/java
+  131  ls -la /usr/bin/java
+  132  vagrant provision
+  133  vagrant up
+  134  vagrant ssh
+  135  ping atlassion.local
+  136  ping .local
+  137  vagrant provision
+  138  vagrant provision
+  139   mvn
+  140  vagrant halt
+  141  find /Volumes/PERSONAL/Developer/spring/src -name .svn -print
+  142  find /Volumes/PERSONAL/Developer/spring/src -name .svn rm -rf {} \;
+  143  find /Volumes/PERSONAL/Developer/spring/src -name .svn -exec rm -rf {} \;
+  144  find /Volumes/PERSONAL/Developer/spring/src -name .svn -print
+  145  ls
+  146  ls -R /Volumes/PERSONAL/Developer/spring/src
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd atlassian/
+  151  git status
+  152  git remote
+  153  git remote status
+  154  git status origin
+  155   ping google
+  156   ping google.com
+  157   ping bitbucket.com
+  158  cd ../../javascript/angular-kendo/
+  159  ls
+  160  gurnt server
+  161  grunt server
+  162  pwd
+  163  find / -name libexec -pring
+  164  find / -name libexec -print
+  165  ls /usr/libexec/
+  166  ls /usr/libexec/apache2/
+  167  ls /usr/libexec/apache2/*html*
+  168  apxs
+  169  man apxs
+  170  sudo apxs -ci -I /usr/include/libxml2 mod_xml2enc.c
+  171  git
+  172  sudo apxs -ci -I /usr/include/libxml2 mod_xml2enc.c
+  173  psql
+  174  which pg
+  175  which pgadmin
+  176  which postgres
+  177  pg_ctl
+  178  java -version
+  179  ls
+  180   ping google
+  181  history
+  182  history | grep http
+  183  cd /etc/apache2/
+  184  ls
+  185  vi httpd.conf
+  186  grep ProxyRequests *
+  187  grep ProxyRequests */*
+  188  grep Proxy *
+  189  diff httpd.conf httpd.conf~previous 
+  190  sudo vi httpd.conf
+  191  service apache2 restart
+  192  sudo service apache2 restart
+  193  sudo apachectl -k restart
+  194  sudo vi httpd.conf
+  195  sudo apachectl -k restart
+  196  sudo vi httpd.conf
+  197  sudo apachectl -k restart
+  198  sudo vi httpd.conf
+  199  sudo apachectl -k restart
+  200  sudo vi httpd.conf
+  201  sudo apachectl -k restart
+  202  sudo vi httpd.conf
+  203  sudo apachectl -k restart
+  204  sudo vi httpd.conf
+  205  sudo apachectl -k restart
+  206  sudo vi httpd.conf
+  207  sudo apachectl -k restart
+  208  sudo vi httpd.conf
+  209  sudo apachectl -k restart
+  210  sudo vi httpd.conf
+  211  sudo apachectl -k restart
+  212  sudo vi httpd.conf
+  213  apactectl -t -D DUMP_MODULES
+  214  sudo apactectl -t -D DUMP_MODULES
+  215  sudo apachectl -t -D DUMP_MODULES
+  216  sudo vi httpd.conf
+  217  sudo apachectl -t -D DUMP_MODULES
+  218  sudo vi httpd.conf
+  219  sudo apachectl -t -D DUMP_MODULES
+  220  sudo apachectl -t -D DUMP_MODULES
+  221  sudo apachectl -k restart
+  222  sudo vi httpd.conf
+  223  sudo apachectl -k restart
+  224  sudo vi httpd.conf
+  225  sudo apachectl -k restart
+  226  sudo vi httpd.conf
+  227  sudo apachectl -k restart
+  228  sudo vi httpd.conf
+  229  sudo apachectl -k restart
+  230  sudo vi httpd.conf
+  231  sudo apachectl -k restart
+  232  sudo vi httpd.conf
+  233  sudo apachectl -k restart
+  234  sudo vi httpd.conf
+  235  sudo apachectl -k restart
+  236  sudo vi httpd.conf
+  237  sudo apachectl -k restart
+  238  sudo vi httpd.conf
+  239  sudo apachectl -k restart
+  240  sudo vi httpd.conf
+  241  sudo apachectl -t -D DUMP_MODULES
+  242  sudo vi httpd.conf
+  243  sudo apachectl -t -D DUMP_MODULES
+  244  sudo apachectl -k restart
+  245  sudo vi httpd.conf
+  246  sudo apachectl -k restart
+  247  sudo vi httpd.conf
+  248  sudo apachectl -k restart
+  249  sudo vi httpd.conf
+  250  sudo apachectl -k restart
+  251  sudo vi httpd.conf
+  252  sudo apachectl -k restart
+  253  sudo vi httpd.conf
+  254  ls
+  255  ls original/
+  256  ls
+  257  host
+  258  hostname
+  259  sudo vi httpd.conf
+  260  vagrant ssh
+  261  vagrant up
+  262  ls
+  263  vagrant ssh
+  264  vagrant ssh
+  265  vagrant up
+  266  ls
+  267  vagrant up
+  268  ssh
+  269  vagrant ssh
+  270  vagrant provision
+  271  vagrant ssh
+  272  vagrant -h
+  273  vagrant -h destory
+  274  vagrant destroy
+  275  history
+  276  vagrant up
+  277  vagrant destroy
+  278  vagrant init
+  279  vagrant up
+  280  vagrant halt
+  281  vagrant up
+  282  vagrant ssh
+  283  ls
+  284  hostname
+  285  ifconfig
+  286  la
+  287  ls
+  288  cd Developer/
+  289  ls
+  290  cd Workspace/
+  291  ls
+  292  ls
+  293  cd tansport/
+  294  ls
+  295  cd ..
+  296  cd -
+  297  ls
+  298  cd mor2/
+  299  ls
+  300  grunt test
+  301  npm install
+  302  npjnpnpklja;ksdjf;laskjf    
+  303  ls
+  304  cd..
+  305  cd ~
+  306  du -sk .
+  307  du -sk ./*
+  308  du -sh ./*
+  309  cd ../
+  310  ls
+  311  cd ../
+  312  ls
+  313  cd java
+  314  ls
+  315  cd transport-data-rest/
+  316  ls
+  317  git checkout develop
+  318  git fetch
+  319  mvn spring-boot:run
+  320  mvn spring-boot:run
+  321  cd ../
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd vagrant
+  326  ls
+  327  cd atlassian
+  328  ls
+  329  vagrant help
+  330  vagrant desrtoy
+  331  vagrant destroy
+  332  vagrant destroy
+  333  ls
+  334  cd Developer/
+  335  ls
+  336  cd Workspace/tansport/
+  337  ls
+  338  cd mor2/
+  339  ls
+  340  npm -help
+  341  npm install -g n
+  342  node -v
+  343  npm install
+  344  npm update
+  345  bower install
+  346  grunt test
+  347  git checkout develop
+  348  grunt test
+  349  npm install
+  350  bower install
+  351  npm update -g bower
+  352  bower install
+  353  grunt test
+  354  bower update
+  355  grunt test
+  356  git pull
+  357  grunt serve
+  358  git fetch
+  359  grunt serve
+  360  bower install hyperagent --save
+  361  grunt serve
+  362  bower install hyperagent --save
+  363  grunt serve
+  364  grunt test
+  365  grunt serve
+  366  grunt test
+  367  grunt test
+  368  grunt serve
+  369  cd ../..
+  370  ls
+  371  cd javascript/
+  372  ls
+  373  cd angular
+  374  ls
+  375  grunt serve
+  376  cat README.md 
+  377  ls
+  378  git pull
+  379  cd ..
+  380  git clone https://github.com/angular/angular-phonecat.git
+  381  ls
+  382  cd angular-phonecat/
+  383  node --version
+  384  npm install
+  385  git checkout -f step-0
+  386  git checkout -f step-1
+  387  git checkout -f step-2
+  388  test
+  389  grunt test
+  390  karma test
+  391  npm intall
+  392  npm install
+  393  cd scripts/
+  394  test.sh
+  395  ./test.sh 
+  396  ./test.sh 
+  397  git checkout -f step-3
+  398  cd ..
+  399  git checkout -f step-3
+  400  ./scripts/e2e-test.sh
+  401  ./scripts/e2e-test.sh
+  402  ./scripts/e2e-test.sh
+  403  git checkout -f step-4
+  404  git checkout -f step-5
+  405  ./scripts/e2e-test.sh
+  406  npm install
+  407  ./scripts/e2e-test.sh
+  408  node scripts/web-server.js
+  409  ./scripts/e2e-test.sh
+  410  git checkout -f step-6
+  411  ./scripts/e2e-test.sh
+  412  node scripts/web-server.js
+  413  node scripts/web-server.js
+  414  cd ../
+  415  ls
+  416  cd transport-data-rest/
+  417  ls
+  418  mvn spring:boot
+  419  cat /Users/mitko/Developer/Workspace/tansport/angular-generated/npm-debug.log
+  420  cd ../
+  421  cd angular
+  422  ls
+  423  node scripts/web-server.js
+  424  cd ../../transport
+  425  cd ../
+  426  ls
+  427  cd ..
+  428  ls
+  429  cd tansport/
+  430  ls
+  431  cd mor2
+  432  ls
+  433  grunt serve
+  434  cd ../
+  435  ls
+  436  cp -R mor2 login-module
+  437  cd login-module
+  438  ls
+  439  grunt serve
+  440  ping google.com
+  441  ping google.com
+  442  grun serve
+  443  grunt serve
+  444  grunt serve
+  445  grunt serve
+  446  grunt serve
+  447  grunt serve
+  448  grunt serve
+  449  cd ../..
+  450  ls
+  451  cd javascript/
+  452  ls
+  453  cd angular
+  454  ls
+  455  cd ../
+  456  ls
+  457  cd ..
+  458  ls
+  459  cd transport
+  460  ls
+  461  cd tansport
+  462  ls
+  463  cd login-module/
+  464  cd login-module/
+  465  grunt serve
+  466  yo angular:service errorService
+  467  npm install -g generator-angular
+  468  yo angular:service errorService
+  469  npm update -g yo
+  470  yo angular:service errorService
+  471  grunt serve
+  472  grunt serve
+  473  grunt serve
+  474  npm update
+  475  grunt serve
+  476  grunt server
+  477  cd ../
+  478  ls
+  479  mkdir angular-generated
+  480  cd angular-generated/
+  481  ls
+  482  yo angular
+  483  grunt serve
+  484  yo angular:service errorService
+  485  yo angular:controller loginController
+  486  yo angular:controller login
+  487  yo angular:service errorS
+  488  yo angular:service error
+  489  yo angular:directive error
+  490  grunt serve
+  491  cd ..
+  492  ls
+  493  cd boot
+  494  ls
+  495  mvn spring-boot:run
+  496  mvn spring-boot:run
+  497  mvn spring-boot:run
+  498  mvn spring-boot:run
+  499  mvn spring-boot:run
+  500  pwd
+  501  grunt serve
+  502  history
+  503  history >> history.txt
+  504  history >> history.txt
