@@ -1,0 +1,66 @@
+<h3 xmlns="http://www.w3.org/1999/html">Boxers</h3>
+<p>This is the boxers view.</p>
+
+<!-- Dashboard navigation -->
+<a data-ng-click="addBoxer()">Register</a>
+<form data-ng-show="formState.showBoxerForm">
+    <fieldset >
+        <!--<legend>Personal Information</legend>-->
+        <label for="firstName">First Name</label><input id="firstName" data-ng-model="formState.boxer.firstName" />
+        <label for="lastName">Last Name</label><input id="lastName" data-ng-model="formState.boxer.lastName" />
+        <label for="dob">D.O.B.</label><input id="dob" data-ng-model="formState.boxer.dob" />
+    </fieldset>
+    <fieldset>
+        <!--<legend>Contacts</legend>-->
+        <label for="address">Address</label><input id="address" data-ng-model="formState.boxer.contact.address.street" />
+        <label for="phone">Address</label><input id="phone" data-ng-model="formState.boxer.contact.phone" />
+    </fieldset>
+
+    <fieldset>
+        <!--<legend>Club</legend>-->
+        <label for="club">Club</label><select id="club" data-ng-model="formState.boxer.club"><option>BlackBelt Pro Gym</option><option>Parramatta PCYC</option></select>
+        <label for="trainer">Trainer</label><select id="trainer" data-ng-model="formState.boxer.trainer"><option>BlackBelt Pro Gym - Coach Joe</option><option>BlackBelt Pro Gym - Coach Mary</option></select>
+    </fieldset>
+
+    <input type="submit" data-ng-click="saveBoxer()" />
+</form>
+
+{{formState}}
+
+<!-- Main listing -->
+<table>
+
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Reg. Number</th>
+        <th>Name</th>
+        <th>Trainer</th>
+        <th>Reg. Date</th>
+        <th>Club</th>
+        <th>Fights</th>
+        <th>Class</th>
+        <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr data-ng-repeat="boxer in boxers.listRegisteredBoxers()">
+        <td>{{$index + 1}}</td>
+        <td>{{boxer.registration.number}}</td>
+        <td>{{boxer.firstName}} {{boxer.lastName}}</td>
+        <td><a href="#">{{boxer.trainer.firstName}} {{boxer.trainer.lastName}}</a></td>
+        <td>{{boxer.registration.date}}</td>
+        <td>{{boxer.club.name}}</td>
+        <td>
+            <a href="#">Prev. 3</a>/<a href="#">Won 1</a>/<a href="#">Lost 2</a>
+        </td>
+        <td>{{boxer.class}}</td>
+        <td>
+            <a href="#">Edit</a>
+            <a href="#">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+
+</table>
