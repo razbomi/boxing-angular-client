@@ -1,0 +1,60 @@
+<div class="container">
+  <ng-include src="'/views/navigation.html'"></ng-include>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+
+      <form class="form">
+        <fieldset>
+          <legend><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Personal Information</legend>
+          <div class="form-group">
+            <label for="firstName">First Name <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></label>
+            <input id="firstName" data-ng-model="boxer.firstName" placeholder="John Smith" class="form-control"
+                   aria-describedby="firstNameHelp"/>
+            <span id="firstNameHelp" class="help-block">Enter your first name</span>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label><input id="lastName" data-ng-model="boxer.lastName"
+                                                          class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="dob">D.O.B.</label><input id="dob" data-ng-model="boxer.dob" class="form-control"/>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contacts</legend>
+          <div class="form-group">
+            <label for="address">Address</label><input id="address" data-ng-model="boxer.contact.address.street"
+                                                       class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label><input id="phone" data-ng-model="boxer.contact.phone" class="form-control"/>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Club</legend>
+          <div class="form-group">
+            <label for="club">Club</label><select id="club" data-ng-model="boxer.club" class="form-control">
+            <option>BlackBelt Pro Gym</option>
+            <option>Parramatta PCYC</option>
+          </select>
+          </div>
+          <div class="form-group">
+            <label for="trainer">Trainer</label><select id="trainer" data-ng-model="boxer.trainer" class="form-control">
+            <option>BlackBelt Pro Gym - Coach Joe</option>
+            <option>BlackBelt Pro Gym - Coach Mary</option>
+          </select>
+          </div>
+        </fieldset>
+
+        <div class="form-group">
+          <input type="submit" class="btn btn-primary" data-ng-click="saveBoxer()"/>
+          <a ng-click="cancel()">Cancel</a>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>

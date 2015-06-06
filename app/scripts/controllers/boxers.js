@@ -1,19 +1,52 @@
 'use strict';
 
-angular.module('angularGeneratedApp')
-    .controller('BoxersCtrl', function ($scope, boxersModel, trainersModel) {
-        $scope.boxers = boxersModel;
-        $scope.trainers = trainersModel;
+var angularGeneratedApp = angular.module('angularGeneratedApp')
+angularGeneratedApp.controller('BoxersCtrl', function ($scope, $state, boxersModel, trainersModel) {
+  $scope.boxers = boxersModel;
+  $scope.trainers = trainersModel;
 
-        // TODO: test me you lazy f8ker
-        $scope.formState = {showBoxerForm: false, boxer: {}};
-        $scope.addBoxer = function () {
-            $scope.formState.showBoxerForm = true;
-        }
+  $scope.removeBoxer = function (boxer) {
+    console.log("Remove ", boxer);
+    $scope.boxers.removeBoxer(boxer);
+  }
 
-        $scope.saveBoxer = function () {
-            $scope.boxers.registerNewBoxer($scope.formState.boxer);
-            $scope.formState.showBoxerForm = false;
-            $scope.formState.boxer = {};
-        }
-    });
+  $scope.editBoxer = function (boxer) {
+    console.log("Edit ", boxer);
+    $scope.boxer = boxer;
+    $state.go('boxers.detail', {registration: boxer.registration.number})
+  }
+
+
+});
+
+angularGeneratedApp.controller('BoxerDetailCtrl', function ($scope, $state, registration, boxersModel, trainersModel) {
+  $scope.boxers = boxersModel;
+  $scope.trainers = trainersModel;
+
+  $scope.saveBoxer = function () {
+    console.log("Update detail for ", $scope.boxer, registration);
+    $scope.boxers.registerNewBoxer($scope.boxer);
+    $state.go('boxers');
+  }
+
+  $scope.cancel = function () {
+    $state.go('boxers');
+  }
+
+});
+
+
+angularGeneratedApp.controller('BoxerRegistrationCtrl', function ($scope, $state, boxersModel, trainersModel) {
+  $scope.boxers = boxersModel;
+  $scope.trainers = trainersModel;
+  $scope.boxer = {};
+
+  $scope.saveBoxer = function () {
+    console.log('new boxer registration');
+  }
+
+  $scope.cancel = function () {
+    $state.go('boxers');
+  }
+
+});

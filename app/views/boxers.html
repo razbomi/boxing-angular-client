@@ -1,51 +1,48 @@
-<h3 xmlns="http://www.w3.org/1999/html">Boxers</h3>
-<p>This is the boxers view.</p>
+<div class="container">
+  <ng-include src="'/views/navigation.html'"></ng-include>
 
-<!-- Dashboard navigation -->
-<a data-ng-click="addBoxer()">Register</a>
-<form data-ng-show="formState.showBoxerForm">
-    <fieldset >
-        <!--<legend>Personal Information</legend>-->
-        <label for="firstName">First Name</label><input id="firstName" data-ng-model="formState.boxer.firstName" />
-        <label for="lastName">Last Name</label><input id="lastName" data-ng-model="formState.boxer.lastName" />
-        <label for="dob">D.O.B.</label><input id="dob" data-ng-model="formState.boxer.dob" />
-    </fieldset>
-    <fieldset>
-        <!--<legend>Contacts</legend>-->
-        <label for="address">Address</label><input id="address" data-ng-model="formState.boxer.contact.address.street" />
-        <label for="phone">Address</label><input id="phone" data-ng-model="formState.boxer.contact.phone" />
-    </fieldset>
+  <h3>Boxers
+    <small>This is the boxers view</small>
+  </h3>
 
-    <fieldset>
-        <!--<legend>Club</legend>-->
-        <label for="club">Club</label><select id="club" data-ng-model="formState.boxer.club"><option>BlackBelt Pro Gym</option><option>Parramatta PCYC</option></select>
-        <label for="trainer">Trainer</label><select id="trainer" data-ng-model="formState.boxer.trainer"><option>BlackBelt Pro Gym - Coach Joe</option><option>BlackBelt Pro Gym - Coach Mary</option></select>
-    </fieldset>
+  <div class="form-group">
+    <div class="btn-group">
+      <a class="btn btn-default" href="#/boxers/registrations"><span class="glyphicon glyphicon-plus"
+                                                                     aria-hidden="true"></span> Add New</a>
+      <a class="btn btn-default" ui-sref="boxer" href="#">Register</a>
+    </div>
+    <a data-ng-click="boxers.detail" href="#">Edit</a>
+  </div>
 
-    <input type="submit" data-ng-click="saveBoxer()" />
-</form>
+  <!-- Main listing -->
+  <div class="panel panel-default">
+    <div class="panel-heading">Boxers</div>
+    <div class="panel-body">
+      <div data-ui-view></div>
+    </div>
+    <table class="table table-hover">
 
-{{formState}}
-
-<!-- Main listing -->
-<table>
-
-    <thead>
-    <tr>
+      <thead>
+      <tr>
         <th>#</th>
-        <th>Reg. Number</th>
+        <th>Reg</th>
         <th>Name</th>
         <th>Trainer</th>
-        <th>Reg. Date</th>
+        <th>Reg Date</th>
         <th>Club</th>
         <th>Fights</th>
         <th>Class</th>
         <th></th>
-    </tr>
-    </thead>
+      </tr>
+      </thead>
 
-    <tbody>
-    <tr data-ng-repeat="boxer in boxers.listRegisteredBoxers()">
+      <tbody>
+      <style>
+        td:hover {
+          cursor: pointer;
+        }
+      </style>
+      <tr data-ng-repeat="boxer in boxers.listRegisteredBoxers() track by $index" data-ng-click="editBoxer(boxer)">
         <td>{{$index + 1}}</td>
         <td>{{boxer.registration.number}}</td>
         <td>{{boxer.firstName}} {{boxer.lastName}}</td>
@@ -53,14 +50,18 @@
         <td>{{boxer.registration.date}}</td>
         <td>{{boxer.club.name}}</td>
         <td>
-            <a href="#">Prev. 3</a>/<a href="#">Won 1</a>/<a href="#">Lost 2</a>
+          <a href="#">Prev. 3</a>/<a href="#">Won 1</a>/<a href="#">Lost 2</a>
         </td>
         <td>{{boxer.class}}</td>
         <td>
-            <a href="#">Edit</a>
-            <a href="#">Delete</a>
+          <a ng-click="editBoxer(boxer)">Edit</a>
+          <a ng-click="removeBoxer(boxer)">Delete</a>
         </td>
-    </tr>
-    </tbody>
+      </tr>
+      </tbody>
 
-</table>
+    </table>
+  </div>
+
+  <ng-include src="'/views/footer.html'"></ng-include>
+</div>
