@@ -1,10 +1,20 @@
 'use strict';
 
+/**
+ * @ngdoc overview
+ * @name angularGeneratedApp
+ * @description
+ * # angularGeneratedApp
+ *
+ * Main module of the application.
+ */
 angular
   .module('angularGeneratedApp', [
+    'ngAnimate',
     'ngCookies',
-    'ngResource',
-    'ngSanitize',
+    //'ngResource',
+    //'ngSanitize',
+    'ngMessages',
     'ui.bootstrap',
     'ui.router'
   ])
