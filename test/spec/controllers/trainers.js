@@ -17,6 +17,7 @@ describe('Controller: TrainersCtrl', function () {
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
+    scope.trainers = [];
+    expect(scope.trainers.length).toBe(0);
   });
 });

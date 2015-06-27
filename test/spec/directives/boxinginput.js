@@ -15,6 +15,6 @@ describe('Directive: boxingInput', function () {
   it('should make hidden element visible', inject(function ($compile) {
     element = angular.element('<boxing-input></boxing-input>');
     element = $compile(element)(scope);
-    expect(element.text()).toBe('this is the boxingInput directive');
+    expect(element.text()).toBe('');
   }));
 });

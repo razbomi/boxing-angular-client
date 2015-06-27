@@ -17,6 +17,7 @@ describe('Controller: BoxersCtrl', function () {
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
+    scope.boxers = [{}, {}];
+    expect(scope.boxers.length).toBeGreaterThan(0);
   });
 });
