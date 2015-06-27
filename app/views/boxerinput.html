@@ -1,0 +1,21 @@
+<div id="{{fieldId}}Group" class="form-group"
+     data-ng-class="{
+     'has-error': form.{{fieldId}}.$invalid && (form.{{fieldId}}.$touched || form.$submitted),
+     'has-success': form.{{fieldId}}.$valid && (form.{{fieldId}}.$touched || form.$submitted)
+     }">
+  <label for={{fieldId}}" class="col-sm-2 control-label">{{label}} <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></label>
+  <!-- http://wet-boew.github.io/wet-boew-styleguide/v4/design/forms-en.html -->
+  <!--http://www.w3resource.com/twitter-bootstrap/forms-tutorial.php-->
+  <!--https://www.patternfly.org/wikis/patterns/forms/form-layout/-->
+  <div class="col-sm-10">
+    <input id="{{fieldId}}"
+           name="{{fieldId}}"
+           class="form-control"
+           data-ng-model="model"
+           required
+           aria-required="true"
+           placeholder="{{placeholder}}"
+           aria-describedby="{{fieldId}}Help"/>
+    <span id="{{fieldId}}Help" class="help-block">{{help}}</span>
+  </div>
+</div>

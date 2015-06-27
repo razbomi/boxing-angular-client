@@ -1,0 +1,56 @@
+<div class="alert alert-danger" role="alert" ng-show="error">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <strong> Warning</strong>
+  <span> {{error}}</span>
+</div>
+
+<form id="userForm" name="userForm"  class="form well">
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <fieldset>
+      <legend><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Personal Information</legend>
+      <boxer-input name="firstName" model="boxer.firstName" form="userForm" label="First Name" placeholder="John Smith" help="Enter your first name"></boxer-input>
+      <boxer-input label="Last Name" name="lastName" model="boxer.lastName" form="userForm"></boxer-input>
+      <boxer-input label="D.O.B." name="dob" model="boxer.dob" form="userForm"></boxer-input>
+    </fieldset>
+  </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <fieldset>
+      <legend><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contacts</legend>
+      <boxer-input label="Address" name="address" model="boxer.contact.address.street" form="userForm"></boxer-input>
+      <boxer-input label="Phone" name="phone" model="boxer.contact.phone" form="userForm"></boxer-input>
+    </fieldset>
+  </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <fieldset>
+      <legend><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Club</legend>
+      <div class="form-group">
+        <label for="club">Club</label><select id="club" data-ng-model="boxer.club" class="form-control">
+        <option>BlackBelt Pro Gym</option>
+        <option>Parramatta PCYC</option>
+      </select>
+      </div>
+      <div class="form-group">
+        <label for="trainer">Trainer</label><select id="trainer" data-ng-model="boxer.trainer" class="form-control">
+        <option>BlackBelt Pro Gym - Coach Joe</option>
+        <option>BlackBelt Pro Gym - Coach Mary</option>
+      </select>
+      </div>
+    </fieldset>
+  </div>
+  </div>
+
+  <!--<hr>-->
+
+  <div class="form-group">
+    <button type="button" class="btn btn-primary" data-ng-click="saveBoxer(userForm)">Done</button>
+    <a href="" data-ng-click="cancel()">Cancel</a>
+  </div>
+</form>

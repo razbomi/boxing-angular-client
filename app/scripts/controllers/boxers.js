@@ -40,9 +40,16 @@ angularGeneratedApp.controller('BoxerRegistrationCtrl', function ($scope, $state
   $scope.boxers = boxersModel;
   $scope.trainers = trainersModel;
   $scope.boxer = {};
+  $scope.error = '';
 
-  $scope.saveBoxer = function () {
-    console.log('new boxer registration');
+  $scope.saveBoxer = function (userForm) {
+    userForm.$setSubmitted();
+    console.log('new boxer registration', userForm);
+    if (userForm.$valid) {
+      $state.go('boxers');
+    } else {
+      $scope.error = 'Please correct the errors below';
+    }
   }
 
   $scope.cancel = function () {

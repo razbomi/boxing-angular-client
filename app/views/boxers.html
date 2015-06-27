@@ -3,15 +3,16 @@
 
   <h3>Boxers
     <small>This is the boxers view</small>
+    <hr>
   </h3>
 
   <div class="form-group">
     <div class="btn-group">
-      <a class="btn btn-default" href="#/boxers/registrations"><span class="glyphicon glyphicon-plus"
-                                                                     aria-hidden="true"></span> Add New</a>
-      <a class="btn btn-default" ui-sref="boxer" href="#">Register</a>
+      <a class="btn btn-default" href="#/boxers/registrations">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Register Boxer</a>
+      <a class="btn btn-default" ui-sref="boxer" href="#">New Register Boxer</a>
     </div>
-    <a data-ng-click="boxers.detail" href="#">Edit</a>
+    <a href="" data-ng-click="editBoxer({registration : ''})">Add</a>
   </div>
 
   <!-- Main listing -->
@@ -63,5 +64,5 @@
     </table>
   </div>
 
-  <ng-include src="'/views/footer.html'"></ng-include>
+  <div data-ng-include src="'/views/footer.html'"></div>
 </div>
