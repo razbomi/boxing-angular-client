@@ -15,6 +15,8 @@ Running `grunt test` will run the unit tests with karma.
 
 TODO:
 
+* Regenerate using http://fountainjs.io/doc/usage/
+
 * Update to Angular2 or Vue?
 
 * Deploy somewhere 
