@@ -12,3 +12,17 @@ Run `grunt` for building and `grunt serve` for preview.
 Running `grunt test` will run the unit tests with karma.
 
 [![Build Status](https://travis-ci.org/razbomi/boxing-angular-client.svg?branch=master)](https://travis-ci.org/razbomi/boxing-angular-client)
+
+TODO:
+
+* Update to Angular2 or Vue?
+
+* Deploy somewhere 
+
+** https://surge.sh/help/getting-started-with-surge
+
+** https://console.firebase.google.com/
+
+** https://www.netlify.com
+
+* Codecoverage & static analisys
